@@ -3,15 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using InControl;
 
-public class PlayerActions : PlayerActionsS {
+public class PlayerActions : PlayerActionSet {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+  PlayerAction LStickLeft;
+  PlayerAction LStickRight;
+  PlayerOneAxisAction LStickHorizontal;
+
+  PlayerAction LStickDown;
+  PlayerAction LStickUp;
+  PlayerOneAxisAction LStickVertical;
+
+  PlayerAction RStickLeft;
+  PlayerAction RStickRight;
+  PlayerOneAxisAction RStickHorizontal;
+
+  PlayerAction RStickDown;
+  PlayerAction RStickUp;
+  PlayerOneAxisAction RStickVertical;
+
+  PlayerAction Pause;
+  PlayerAction Dash;
+
+  PlayerAction Confirm;
+  PlayerAction Back;
+
 }
