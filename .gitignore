@@ -33,3 +33,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Vail & Cie/Library/assetDatabase3
+*.json
+Vail & Cie/Library/metadata/b9/b9b661d3bc8004d4b9bdf11851a4d74e
+*.log
+Vail & Cie/Temp/UnityLockfile
