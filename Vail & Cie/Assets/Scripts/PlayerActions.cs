@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using InControl;
 
-public class PlayerActions : PlayerActionSet {
+public class PlayerActions : PlayerActionSet
+{
 
   PlayerAction LStickLeft;
   PlayerAction LStickRight;
